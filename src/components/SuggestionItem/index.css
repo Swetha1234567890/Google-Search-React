@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.list-item-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.arrow {
+  height: 20px;
+  width: 40px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  padding-right: 10px;
+}
+
+.item {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.arrow-btn {
+  background-color: #ffffff;
+  border-style: none;
+}
